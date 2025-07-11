@@ -28,6 +28,7 @@
     background-position: center;
     max-width: 1440px;
     height: 698px;
+    margin: auto;
 
 
 }
@@ -115,10 +116,10 @@ nav h3 {
     align-items: center;
     justify-content: space-between;
     max-width: 1140px;
-    margin: 0 auto;          /* এটি horizontal center করবে */
+    margin: 0 auto;         
     gap: 100px;
-    padding: 60px 20px;      /* যেটুকু প্রয়োজন, সেটা padding দিয়ে দাও */
-    flex-wrap: wrap;         /* responsive এর জন্য প্রয়োজন */
+    padding: 60px 20px;      
+    flex-wrap: wrap;         
 }
 
 .action-title {
@@ -281,9 +282,9 @@ nav h3 {
 
 .section-d {
   background-color: #e6e8f1;
-  padding: 60px 20px;
+  padding: 60px 60px;
   text-align: center;
-  max-width: 900px;       
+  max-width: 800px;       
   margin: 40px auto;     
   border-radius: 20px;
 }
@@ -292,7 +293,8 @@ nav h3 {
 .title h3 {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
   color: #252432;
 }
 
@@ -312,7 +314,7 @@ nav h3 {
   border-radius: 30px;
   padding: 0;
   display: block;
-  margin: 40px auto 0;
+  margin: 30px auto 0;
 }
 
 /* form styles */
@@ -365,6 +367,65 @@ nav h3 {
   transition: border 0.3s, box-shadow 0.3s;
 }
 
+/* footer styles */
+
+
+
+.footer-title {
+  font-size: 55px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+  
+}
+
+
+.nav-img-style-2 {
+    width: 70px;
+    height: 70px;
+    gap: 5px;
+
+   
+}
+
+.footer-description {
+  max-width: 600px;
+  margin: 5px auto 0;
+  text-align: center;
+  font-size: 16px;
+  color: #8987A1;
+  
+}
+
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+  
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #8987A1;
+  
+}
 
 
 
